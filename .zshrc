@@ -46,6 +46,7 @@ zinit snippet OMZP::asdf
 zinit snippet OMZP::z
 zinit light zsh-users/zsh-completions
 zinit load zdharma-continuum/history-search-multi-word
+zinit wait lucid for MichaelAquilina/zsh-autoswitch-virtualenv
 
 # Load powerlevel10k theme
 zinit ice depth"1"; zinit light romkatv/powerlevel10k
