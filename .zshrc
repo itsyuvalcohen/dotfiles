@@ -11,6 +11,7 @@ fi
 alias tp="terraform plan -out plan.out && terraform show -json plan.out > plan.json"
 alias ti="terraform import"
 alias ta="terraform apply"
+alias ll="ls -lha"
 
 # Path
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
