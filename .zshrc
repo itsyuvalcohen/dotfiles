@@ -8,9 +8,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Aliases
-alias tp="terraform plan -out plan.out && terraform show -json plan.out > plan.json"
-alias ti="terraform import"
-alias ta="terraform apply"
 alias ll="ls -lha"
 
 # Path
@@ -43,6 +40,8 @@ zinit light-mode for \
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma-continuum/fast-syntax-highlighting
 zinit snippet OMZP::git
+zinit snippet OMZP::terraform
+zinit snippet OMZP::brew
 zinit snippet OMZP::asdf
 zinit snippet OMZP::z
 zinit light zsh-users/zsh-completions
